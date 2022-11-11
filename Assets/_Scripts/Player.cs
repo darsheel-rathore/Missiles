@@ -27,7 +27,7 @@ public class Player : MonoBehaviour {
     void Start() {
 
         rb = gameObject.GetComponent<Rigidbody2D>();
-        csScript = GameObject.FindGameObjectWithTag("Cloud Spawner").GetComponent<CloudsSpawner>();
+        csScript = FindObjectOfType<CloudsSpawner>();//GameObject.FindGameObjectWithTag("Cloud Spawner").GetComponent<CloudsSpawner>();
 
         // Setting up resetting values
         resetSpeed = aircraftSpeed;
