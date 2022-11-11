@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1568433100531022}
+  m_IsPrefabAsset: 1
+--- !u!1 &1568433100531022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4505245960714196}
+  - component: {fileID: 114392781576038458}
+  m_Layer: 0
+  m_Name: Spawn Manager
+  m_TagString: Spawn Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4505245960714196
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1568433100531022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114392781576038458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1568433100531022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd7ac7e5b6f3024796ec3ab15fd4624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 1384094939883960, guid: d83dff781ab87a04e8cfc10f435da3eb,
+    type: 2}
+  missileSpawnerPrefab: {fileID: 1921025213737914, guid: 4a8a1acc11e8fe74d9f096df24c86ed4,
+    type: 2}
+  cloudSpawnerPrefab: {fileID: 1778545525507472, guid: d6cefdc45960ef64b852c491c6b3f2d2,
+    type: 2}
+  starSpawnerPrefab: {fileID: 1160213732923234, guid: 2276e5579211eda44ac4193dc5ace6de,
+    type: 2}
+  powerUpSpawnerPrefab: {fileID: 1388639383076772, guid: e237bb204534c2d429502e2109902bc4,
+    type: 2}

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1921025213737914}
+  m_IsPrefabAsset: 1
+--- !u!1 &1921025213737914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4233140322441070}
+  - component: {fileID: 114790526407857008}
+  - component: {fileID: 114180824905988648}
+  m_Layer: 8
+  m_Name: Missile Spawner
+  m_TagString: Missile Spawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4233140322441070
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921025213737914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114180824905988648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921025213737914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7a9a88ca9059c4488e06abd2b21365, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114790526407857008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921025213737914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8492e0b87915df4080de3bed12dc67d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Missile:
+  - {fileID: 1876437504144348, guid: ec74629a0ece76e49a814be5642edb4e, type: 2}
+  - {fileID: 1623233983217668, guid: 418b44d40cac7794b97d140a01116ce3, type: 2}
+  - {fileID: 1285672919321220, guid: 78d755191f8457c4483c966151adf5b1, type: 2}
+  - {fileID: 1285672919321220, guid: ec668c28241262b4dade1a8fc5254f88, type: 2}
+  - {fileID: 1392408297577908, guid: 0d82d3ef05758284fab8e130e34e6fca, type: 2}
+  - {fileID: 1928031267617528, guid: 563dd87a2d2248c439351816e5b21e8a, type: 2}

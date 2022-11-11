@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Validate
+  - FlyBy
+  - TargetPrediction
+  - HM1
+  - HM2
+  - HM3
+  - Missile Spawner
+  - Star
+  - Star Spawner
+  - PowerUp
+  - PowerUp Spawner
+  - Shield
+  - Cloud Spawner
+  - Shield PowerUp
+  - Speed PowerUp
+  - HM4
+  - Spawn Manager
+  - Event System
+  - Canvas Handler
+  - All Canvas
+  - Smoke Trail
+  - Time Manager
+  - Score Manager
+  - Setting
+  - InGame Canvas
+  - Background Music
+  - Background Music Sprite
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Destruction
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3497261163
+    locked: 0
+  - name: Normal Clouds
+    uniqueID: 2161705023
+    locked: 0
+  - name: Smoke  Trail
+    uniqueID: 882089793
+    locked: 0
+  - name: Foreground
+    uniqueID: 3561898279
+    locked: 0
+  - name: Overhead Clouds
+    uniqueID: 628829995
+    locked: 0
