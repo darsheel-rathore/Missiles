@@ -94,7 +94,7 @@ public class ScoreManager : MonoBehaviour {
     public void DisplayFinalScore()
     {
         // Calling getter method from time manager
-        TimeManager timeManager = GameObject.FindGameObjectWithTag("Time Manager").GetComponent<TimeManager>();
+        TimeManager timeManager = FindObjectOfType<TimeManager>();
         SetTotalTimePlayed(timeManager.GetPlayTime());
 
         // Calculating final score
@@ -102,9 +102,9 @@ public class ScoreManager : MonoBehaviour {
 
         // Displaying score on game over canvas
         finalScore.text = totalScore.ToString();
-        starCollection.text = "@ " + starsCollected.ToString();
-        totalTime.text = "@ " + totalTimePlayed.ToString();
-        bonusEarned.text = "@ " + missileBonus.ToString();
+        starCollection.text = starsCollected.ToString();
+        totalTime.text = totalTimePlayed.ToString();
+        bonusEarned.text = missileBonus.ToString();
 
         // Displaying final time
         float minutesPlayed = totalTimePlayed / 60;

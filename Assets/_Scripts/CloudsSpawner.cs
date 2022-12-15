@@ -15,7 +15,7 @@ public class CloudsSpawner : MonoBehaviour {
 
 	void Start()
 	{
-		checkPlayer = GameObject.FindGameObjectWithTag("Validate").GetComponent<ValidatePlayer>();
+		checkPlayer = FindObjectOfType<ValidatePlayer>();
 		StartCoroutine(SpawnClouds());
 
 		// Setting Reset time
